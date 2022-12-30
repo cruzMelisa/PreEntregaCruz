@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+ <form class="form">
+    <label>Nombre del propietario:</label>
+    <input name="nombre" type="text" id="nombreDuenio">
+    <br>
+    <label for="Nombre de tu mascota">Nombre de tu mascota:</label>
+    <input name="Nombre de tu mascota" type="text" id="nombreMascota">
+    <br>
+    <label for="edad">Edad de tu mascota:</label>
+    <input name="edad" type="number" id="edad">
+    <br>
+    <label for="raza">Raza de tu mascota:</label>
+    <select name="" id="raza">
+        <option value="default">Seleccione una raza</option>
+        <option value="Dachshund">Dachshund</option>
+        <option value="Bull dog">Bull dog </option>
+        <option value="Mestizo">Mestizo</option>
+        <option value="Cocker">Cocker</option>
+    </select>
+    <br>
+  
+    <button class="text-verde bg-crema btn" onclick="cotizar()">
+        Obtener cotizacion
+    </button>
+ </form>
+<hr>
+ <h3 id="respuesta" class="bg-crema text-verde text-center"></h3>
+
+</body>
+</html> 
